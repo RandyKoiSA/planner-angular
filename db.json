@@ -1,11 +1,9 @@
-{
-    "posts": [
-      {
+[
+    {
         "id": 1,
-        "title": "hello"
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+        "title": "Planner 1",
+        "start-date": "03042000",
+        "end-date": "04052011",
+        "description": "This is the description of the planner"
     }
-  }
+]
