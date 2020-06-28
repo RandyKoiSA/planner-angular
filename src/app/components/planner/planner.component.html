@@ -1,1 +1,8 @@
-<p>planner works!</p>
+<div class="card bg-info" style="margin: 5px; width: 18rem; display: inline-block" *ngFor ="let plan of planners">
+    <div class="card-body">
+        <h4 class="card-title">{{ plan.title }}</h4>
+        <h5 class="card-text"> Start Date: {{ plan.startdate }}</h5>
+        <h5 class="card-text"> End Date: {{ plan.enddate }}</h5>
+        <p class="card-text">{{ plan.description }}</p>
+    </div>
+</div>
